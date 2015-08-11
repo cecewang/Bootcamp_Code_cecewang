@@ -1,5 +1,5 @@
 PImage pigeon[][] = new PImage [10][8];
-PImage person = loadImage("Person.png");
+PImage person;
 int i, j, n;
 
 void setup(){
@@ -43,6 +43,7 @@ void draw(){
       textSize(20);
       text ("Welcome to Union Sqaure", 240, 70);
       
+  person = loadImage("Person.png");    
   image(person, mouseX, mouseY);    
 
 
